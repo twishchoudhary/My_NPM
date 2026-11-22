@@ -1,4 +1,4 @@
-# envready
+# @twishchoudhary/envready
 
 Lightweight utility to validate environment variables in Node.js apps before startup.
 
@@ -9,13 +9,13 @@ Missing or misconfigured env vars cause hard-to-debug runtime errors. This libra
 ## Install
 
 ```bash
-npm install envready
+npm install @twishchoudhary/envready
 ```
 
 ## Usage
 
 ```js
-import { assertEnv } from "envready";
+import { assertEnv } from "@twishchoudhary/envready";
 
 const config = assertEnv({
   DATABASE_URL: { required: true, type: "url" },

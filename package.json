@@ -1,5 +1,5 @@
 {
-  "name": "envready",
+  "name": "@twishchoudhary/envready",
   "version": "1.0.0",
   "description": "Lightweight environment variable validation utility for Node.js",
   "type": "module",
@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/twishchoudhary/My_NPM/issues"
   },
-  "homepage": "https://github.com/twishchoudhary/My_NPM#readme"
+  "homepage": "https://github.com/twishchoudhary/My_NPM#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
