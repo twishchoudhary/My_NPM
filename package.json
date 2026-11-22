@@ -1,0 +1,30 @@
+{
+  "name": "envready",
+  "version": "1.0.0",
+  "description": "Lightweight environment variable validation utility for Node.js",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "environment-variables",
+    "env-validation",
+    "nodejs",
+    "configuration",
+    "validator"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
